@@ -1,0 +1,31 @@
+<html>
+
+	<head>
+
+		<title>For Loops</title>
+
+	</head>
+	
+	<body>
+
+		<div id="tweetDiv"></div>	
+
+		<script type="text/javascript">
+
+		var tweetString = "";
+
+			var tweets = ["Hello, How is you day", "I love coffe!", "See you", "I love Canada", "Let's Party", "Learning Java Script"];
+
+				for (var i = 0; i < tweets.length; i++) {
+
+					tweetString = tweetString + "<p>" + tweets[i] + "</p>";
+
+				}
+
+				document.getElementById("tweetDiv").innerHTML = tweetString;
+
+			</script>
+	
+	</body>
+				
+</html>

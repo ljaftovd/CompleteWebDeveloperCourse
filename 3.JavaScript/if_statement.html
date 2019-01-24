@@ -1,0 +1,43 @@
+<html>
+
+	<head>
+
+		<title>Array</title>
+
+	</head>
+	
+	<body>
+
+		<p>Enter you password</p>
+
+			<p><input type="text" id="password"></p>
+
+				<p><button id="checkWord">Enter</button></p>
+
+		<script type="text/javascript">
+
+			document.getElementById("checkWord").onclick = function () {
+
+					var PasswordEntered = document.getElementById("password").value;
+
+						var magicWord = "Ljaftov";
+
+							if (PasswordEntered == magicWord) {
+
+								alert("Password Correct");
+
+							 	
+							} else {
+
+								alert("Password Incorect");
+
+							}
+
+
+			}
+
+		</script>
+	
+	</body>
+				
+</html>

@@ -1,0 +1,43 @@
+<html>
+
+	<head>
+
+		<title>Java Script Game</title>
+
+	</head>
+	
+	<body>
+	
+			<p>How Many Fingers</p>
+
+					<p><input type = "text" id="vrednost">
+
+						<button id="CheckScore">Guess</button></p>
+
+		<script type="text/javascript">
+
+				document.getElementById("CheckScore").onclick = function () {
+					
+					var randomNumber = Math.random();
+
+						randomNumber = randomNumber * 6;
+
+						randomNumber = Math.floor(randomNumber);
+
+						if (document.getElementById("vrednost").value == randomNumber) {
+
+							alert("Well Done you got it right!");
+
+						} else  {
+
+							alert("Nope you got the wrong number, the number was " + randomNumber);
+
+							}
+
+						}
+
+			</script>
+	
+	</body>
+				
+</html>

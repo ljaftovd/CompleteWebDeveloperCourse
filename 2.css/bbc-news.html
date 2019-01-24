@@ -1,0 +1,581 @@
+<html>
+
+		<head>
+			
+						
+			<title>Technology - BBC News</title>
+		
+			
+	<style type="text/css">
+			
+			#topbar {
+
+				width: 1000px;
+				margin:0 auto;
+				height: 40px;
+			}
+
+			body {
+
+				margin: 0;
+				padding: 0;
+				font-family: Helvetica, Arial, sans-serif; 
+			}
+
+			#logo {
+
+				margin-top:8px;
+				width: 98px;
+				float:left;
+				margin-right: 8px;
+			}
+
+			.topbar-section {
+
+				float: left;
+				border-left: 1px #CCCCCC solid;
+				height:100%;
+			}
+
+			#signin-images {
+
+				width: 25px;
+				margin: 11px 15px;
+				float: left;
+
+			}
+
+			#signin-text {
+
+				font-weight: bold;
+				font-size: 90%;
+				position: relative;
+				top: 14px;
+				padding-right: 50px;
+			}
+
+			#wigglyline {
+
+				float: left;
+				height: 40px;
+			}
+
+			#bell {
+
+				height: 25px;
+				margin: 9px 8px 0 8px; 
+
+			}
+
+			#bell-div {
+
+				float: left;
+			}
+
+			.topbar-menu {
+
+				font-weight: bold;
+				font-size: 90%;
+				padding: 13px 15px 0 15px;
+				height: 27px;
+
+			}
+
+			#arrow {
+
+				width: 14px;
+				margin-left: 4px;
+			}
+
+			#search-box {
+
+				background-color: #E4E4E4;
+				border: none;
+				font-weight: bold;
+				font-size: 14px;
+				padding: 5px;
+				margin: 5px 0 5px 5px;
+				float: left;
+
+
+			}
+
+			#glass {
+
+				height: 30px;
+				margin-top: 5px;
+
+			}
+
+			.clear {
+
+				clear:both;
+			}
+
+			#menu-bar-container {
+
+				border-top: 1px solid #CCCCCC;
+				background-color: #BB1919;
+				width: 100%;
+				height: 70px;
+			}
+
+			#menu {
+
+				width: 1000px;
+				margin:0 auto;
+			}
+
+			h1 {
+
+				padding: 0;
+				margin: 0;
+				Color:white;
+				font-size:40px;
+				font-weight: noraml;
+				padding-top: 10px;
+				float: left;
+				
+			}
+
+			#local_news {
+
+				border:1px #bb4545 solid;
+				float: right;
+				width: 240px;
+				padding: 4px 5px 0 10px;
+				margin: 5px 10px 0 0;
+
+
+			}
+
+			#local_news a {
+
+				color: white;
+				text-decoration: none;
+				font-size:27px;
+				position: relative;
+				top: -8px;
+
+			}
+
+			#local_news a:hover {
+
+				text-decoration: underline;
+
+			}
+
+
+			#local_news img {
+
+				height: 40px;
+
+			}
+
+			#menu-bar-2-container {
+
+				background-color: #A91717;
+				width: 100%;
+
+			}
+
+			#menu-bar-2 {
+
+				width: 1000px;
+				margin: 0 auto;
+				height: 30px;
+
+			}		
+
+			#menu-bar-2 a {
+
+				color: White;
+				text-decoration: none;
+				padding: 0px 10px;
+				border-right:1px solid #BB4545;
+				font-size: 14px;
+				position: relative;
+				top:3px;
+
+			}
+
+			#menu-bar-2 a:hover {
+
+				text-decoration: underline;
+			}
+
+			#page-container {
+
+				width: 1000px;
+				margin: 0 auto;
+
+			}
+
+			h2 {
+
+				font-weight: normal;
+				margin-top:  40px;
+				font-size: 25px;
+				border-bottom: 3px solid #a91717;
+				width:  125px;
+				
+				}
+
+				h3 a{
+
+					color: black;
+					font-size:25px;	
+					text-decoration: none;
+
+				}
+
+				h3 a:hover {
+
+					color:#1167a8;
+				}
+
+				#article-summary {
+
+					color:#5a5a5a;
+					width: 300px;
+					float: left;
+				}
+
+				.clock {
+
+					height: 13px;
+					position: relative;
+					margin-right: 4px;
+				}
+
+				.topic-link {
+
+					text-decoration: none;
+					color: #a91717;
+					border-left: 1px solid #CCCCCC; 
+					padding-left: 4px;
+					
+					}
+
+				.topic-link:hover {
+
+					color: #1167a8
+				}
+
+				#article-summary a:hover {
+
+					color: #1167a8;
+
+					}
+
+				.date {
+
+					padding-right: 4px;
+					color:#5a5a5a;
+
+				}
+
+				#article-container {
+
+					float: left;
+					width: 700px;
+					border-right: 1px solid #CCCCCC;
+
+				}
+
+				#main-image {
+
+					width: 360px;
+					margin-left: 15px;
+				}
+
+				#article-hr {
+					
+					border-top: 1px solid #a91717;
+					width: 50px;
+				
+				}
+
+				.article-link {
+
+					color:black;
+					text-decoration: none;
+
+				}
+
+				#watch-listen {
+
+					margin-left: 8px;
+					width: 291px;
+					float: right;
+				}
+
+				h4 {
+
+					font-weight: normal;
+					font-size: 20px;
+				}
+
+				.article-side-image {
+
+					float: left;
+					width: 110px;
+					margin-right: 1px;
+
+				}
+
+				.watch-listen-link{
+
+					width: 10px;
+					text-decoration: none;
+					color:black;
+					font-weight: bold;
+					font-size: 18px;
+					position: relative;
+					
+				}
+
+				.watch-listen-link:hover {
+
+					color:#1167a8;
+
+				}
+
+				.side-article {
+
+					float:right;
+					width: 195px;
+					position: relative;
+					margin-right: -20px;
+
+
+				}
+
+				.no-border {
+
+					border-left: none;
+					padding: 0;
+
+				}
+
+				.border-right {
+
+					border-right: 1px solid #CCCCCC;
+
+
+				}
+
+
+		</style>
+
+		</head>
+			
+		<body>
+
+				<div id="topbar">
+
+					<img id="logo" src="images/bbc-news.png">
+
+					<div id="signin-div" class="topbar-section">
+
+						<img id="signin-images" src="images/login.png">
+
+						<span id="signin-text">Sign in</span>
+
+					</div>
+
+				<div id="bell-div">
+
+					<img id="wigglyline" src="images/wiggly.jpg">
+
+					<img id="bell" src="images/bell.png">
+
+					</div>
+
+				<div class="topbar-section topbar-menu">
+
+					News
+
+				</div>
+
+				<div class="topbar-section topbar-menu">
+
+					Sport
+
+				</div>
+
+				<div class="topbar-section topbar-menu">
+
+					Weather
+
+				</div>
+
+				<div class="topbar-section topbar-menu">
+
+					iPlayer
+
+				</div>
+
+				<div class="topbar-section topbar-menu">
+
+					TV
+
+				</div>
+
+				<div class="topbar-section topbar-menu">
+
+					More
+
+				<img id="arrow" src="images/arrow.png">
+
+				</div>
+
+				<div class="topbar-section">
+
+					<input id="search-box" type="text" value="Search">
+
+						<input type="image" id="glass" src="images/magnify.png">
+
+				</div>
+
+				<div class="clear"></div>
+
+				<div id="menu-bar-container">
+
+					<div id="menu-bar">
+
+						<h1>NEWS</h1>
+
+					</div>
+
+				<div id="local_news">
+					
+				<a href="http://www.time.mk">Find local news</a>	
+
+					<img src="images/local.png">
+
+					</div>	
+
+				<div class="clear"></div>
+
+				<div id="menu-bar-2-container">
+
+					<div id="menu-bar-2">
+
+				<a href="">Home</a>
+
+				<a href="">Macedonia</a>
+
+				<a href="">World</a>
+
+				<a href="">Business</a>
+
+				<a href="">Politics</a>
+
+				<a href="">Tech</a>
+
+				<a href="">Science</a>
+
+				<a href="">Health</a>
+
+				<a href="">Education</a>
+
+				<a href="">Entertainment & Arts</a>
+
+				<a href="">Video & Audio</a>
+
+				<a href="">More</a>
+
+				</div>
+			
+			</div>
+
+		</div>	
+
+			<div class="clear">
+
+			<div id="main-article">
+				
+				<div id="page-container">	
+
+					<h2>Technology</h2>
+
+						<div id="article-container">
+
+					<h3><a href="https://www.technewsworld.com/story/Apple-Spotlights-Key-iOS-113-Features-85085.html">Apple Spotlights Key iOS 11.3 Features</h3></a>
+
+					<div id="article-summary">
+						
+						 Talking Business
+
+A new Business Chat feature, which will launch in beta when iOS 11.3 is made publicly available, will let users communicate directly with businesses within the Messages app.Among the companies Business Chat initially will work with are Lowe's, Discover and Wells Fargo.The app lets users chat with a service rep, schedule an appointment, or make purchases through Apple Pay without leaving the app. The feature doesn't share the user's contact information with businesses, and users can stop chatting at any time.
+
+				<p><img class="clock" src="images/clock.png"><span class="date">26 January 2018</span><a class="topic-link"href="https://www.technewsworld.com/perl/section/technology/">Technology</p></a>
+ 		
+ 						<hr id="article-hr" align="left">
+
+ 					<p><a class="article-link" href="https://www.technewsworld.com/story/84763.html">Microsoft, Red Hat Offer Enterprise Support for Containers in Hybrid Cloud</a></p>		
+
+ 					<p><a class="article-link" href="https://www.technewsworld.com/story/84928.html">Nvidia Containerizes GPU-Accelerated Deep Learning</a></p>	
+
+ 					</div>	
+
+						<img id="main-image" src="images/iphone.jpg">
+
+				</div>
+
+		</div>
+
+					<div id="watch-listen">
+
+					<h4>Watch and Listen</h4>
+
+					<img class="article-side-image" src="images/image1.jpg">
+
+					<div class="side-article">
+
+							<a class="watch-listen-link" href="https://www.theverge.com/2018/1/24/16927922/bo-play-beoplay-m3-wireless-speaker-airplay-cast-review">B&O Play Beoplay M3 review</a>
+
+							<p><img class="clock" src="images/clock.png"><span class="date">26 January 2018</span></p>
+
+					</div>
+
+					<div class="clear"></div>
+
+					<img class="article-side-image" src="images/image2.jpg">
+
+					<div class="side-article">
+
+							<a class="watch-listen-link"href="http://www.bbc.com/news/av/technology-42737846/robot-shop-assistant-sacked-and-other-tech-news">Robot shop assistant sacked</a>
+
+							<p><img class="clock" src="images/clock.png"><span class="date border-right">26 January 2018</span>
+						
+							<br>
+
+							<a class="topic-link no-border" href="http://www.bbc.com/news/av/technology-42737846/robot-shop-assistant-sacked-and-other-tech-news">Robotics</a></p>
+
+					  </div>
+
+					<div class="clear"></div>
+
+					<img class="article-side-image" src="images/image3.jpg">
+
+					<div class="side-article">
+
+							<a class="watch-listen-link"href="http://www.bbc.com/news/av/technology-42737843/gas-detecting-pill-could-diagnose-poor-gut-health">The pill that measures farts</a>
+
+							<p><img class="clock" src="images/clock.png"><span class="date border-right">26 January 2018</span>
+							
+							<br>
+
+							<a class="topic-link no-border" href="http://www.bbc.com/news/av/technology-42737843/gas-detecting-pill-could-diagnose-poor-gut-health">Technology</a></p>
+					  </div>					  
+				
+				</div>			
+		</div>
+
+	</div>
+
+	</body>
+
+</html>
